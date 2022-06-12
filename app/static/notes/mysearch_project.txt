@@ -1,0 +1,8 @@
+1.for form divide  - https://www.youtube.com/watch?v=OPc_oMgjhpM
+2.for search       - https://www.youtube.com/watch?v=iFlSrEuyl8I
+3.for pagination   - https://www.youtube.com/watch?v=CV_t_dHFXzc
+4.for filters      - https://youtu.be/G-Rct7Na0UQ
+
+5.local variable 'context' referenced before assignment - https://www.youtube.com/watch?v=rWFZymiK89c
+
+

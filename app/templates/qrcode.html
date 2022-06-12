@@ -1,0 +1,26 @@
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+</head>
+<body>
+  <div class="container-fluid">
+    <center>
+      <form action="{% url 'qrcode' %}" method="post">
+          {% csrf_token %}
+          <img src="{% static 'images/lock.png' %}" alt="" width="300px" height="300px">
+          <p>Password Protected Page<br>Enter Password 2 Continue</p>
+          <input type="text" placeholder="Enter Password" name="password"><br><br>
+          <input type="submit" value="Go On">
+      </form>
+    </center>
+  </div>
+  <script src="{% static 'js/jquery.js' %}"></script>
+  <script src="{% static 'js/bootstrap.js' %}"></script>
+  <script src="{% static 'js/popper.js' %}"></script>
+</body>
+</html>
